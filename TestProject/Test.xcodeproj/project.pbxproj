@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD68C6A61F224FA00017251B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD68C6A51F224FA00017251B /* ViewController.swift */; };
 		CDA32BA01F21E82E00D2CB68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA32B9F1F21E82E00D2CB68 /* AppDelegate.swift */; };
-		CDA32BA21F21E82E00D2CB68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA32BA11F21E82E00D2CB68 /* ViewController.swift */; };
 		CDA32BA51F21E82E00D2CB68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA32BA31F21E82E00D2CB68 /* Main.storyboard */; };
 		CDA32BA71F21E82E00D2CB68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA32BA61F21E82E00D2CB68 /* Assets.xcassets */; };
 		CDA32BAA1F21E82E00D2CB68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA32BA81F21E82E00D2CB68 /* LaunchScreen.storyboard */; };
+		CDA32BB21F21E91100D2CB68 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA32BB11F21E91100D2CB68 /* CollectionViewController.swift */; };
+		CDA32BB41F21E94100D2CB68 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA32BB31F21E94100D2CB68 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD68C6A51F224FA00017251B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CDA32B9C1F21E82E00D2CB68 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA32B9F1F21E82E00D2CB68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDA32BA11F21E82E00D2CB68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CDA32BA41F21E82E00D2CB68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDA32BA61F21E82E00D2CB68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDA32BA91F21E82E00D2CB68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDA32BAB1F21E82E00D2CB68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA32BB11F21E91100D2CB68 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		CDA32BB31F21E94100D2CB68 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				CDA32B9F1F21E82E00D2CB68 /* AppDelegate.swift */,
-				CDA32BA11F21E82E00D2CB68 /* ViewController.swift */,
 				CDA32BA31F21E82E00D2CB68 /* Main.storyboard */,
+				CDA32BB31F21E94100D2CB68 /* CollectionViewCell.swift */,
+				CDA32BB11F21E91100D2CB68 /* CollectionViewController.swift */,
+				CD68C6A51F224FA00017251B /* ViewController.swift */,
 				CDA32BA61F21E82E00D2CB68 /* Assets.xcassets */,
 				CDA32BA81F21E82E00D2CB68 /* LaunchScreen.storyboard */,
 				CDA32BAB1F21E82E00D2CB68 /* Info.plist */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDA32BA21F21E82E00D2CB68 /* ViewController.swift in Sources */,
+				CDA32BB21F21E91100D2CB68 /* CollectionViewController.swift in Sources */,
+				CDA32BB41F21E94100D2CB68 /* CollectionViewCell.swift in Sources */,
+				CD68C6A61F224FA00017251B /* ViewController.swift in Sources */,
 				CDA32BA01F21E82E00D2CB68 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +312,7 @@
 				CDA32BB01F21E82E00D2CB68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
