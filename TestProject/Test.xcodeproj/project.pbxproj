@@ -12,7 +12,6 @@
 		CDA32BA51F21E82E00D2CB68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA32BA31F21E82E00D2CB68 /* Main.storyboard */; };
 		CDA32BA71F21E82E00D2CB68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA32BA61F21E82E00D2CB68 /* Assets.xcassets */; };
 		CDA32BAA1F21E82E00D2CB68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA32BA81F21E82E00D2CB68 /* LaunchScreen.storyboard */; };
-		CDA32BB21F21E91100D2CB68 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA32BB11F21E91100D2CB68 /* CollectionViewController.swift */; };
 		CDA32BB41F21E94100D2CB68 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA32BB31F21E94100D2CB68 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +23,6 @@
 		CDA32BA61F21E82E00D2CB68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDA32BA91F21E82E00D2CB68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDA32BAB1F21E82E00D2CB68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDA32BB11F21E91100D2CB68 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		CDA32BB31F21E94100D2CB68 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,7 +59,6 @@
 				CDA32B9F1F21E82E00D2CB68 /* AppDelegate.swift */,
 				CDA32BA31F21E82E00D2CB68 /* Main.storyboard */,
 				CDA32BB31F21E94100D2CB68 /* CollectionViewCell.swift */,
-				CDA32BB11F21E91100D2CB68 /* CollectionViewController.swift */,
 				CD68C6A51F224FA00017251B /* ViewController.swift */,
 				CDA32BA61F21E82E00D2CB68 /* Assets.xcassets */,
 				CDA32BA81F21E82E00D2CB68 /* LaunchScreen.storyboard */,
@@ -143,7 +140,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDA32BB21F21E91100D2CB68 /* CollectionViewController.swift in Sources */,
 				CDA32BB41F21E94100D2CB68 /* CollectionViewCell.swift in Sources */,
 				CD68C6A61F224FA00017251B /* ViewController.swift in Sources */,
 				CDA32BA01F21E82E00D2CB68 /* AppDelegate.swift in Sources */,
